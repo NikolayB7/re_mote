@@ -1,0 +1,246 @@
+html {
+  
+}
+
+// ***********		Хедер		***************
+
+.header{
+	
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.logo{
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	height: 50px;
+	width: 150px;
+}
+.button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 50px;
+	width: 163px;
+	background-color: #E73741;
+	border-radius: 5px;
+	color: #fff;
+	float: right;
+	text-align: center;
+	cursor: pointer;
+}
+
+// *************		Фон			**************
+
+.front{
+	position: relative;
+	height: 900px;
+	max-width: 1920px;
+	background-image: url('../img/front__bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.front__content{
+	height: 900px;
+	width: 100vw;
+	left: calc(-50vw + 50%);
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+// *********		Карточки товара		************
+
+.item{
+	position: relative;
+	margin-bottom: 15px;
+	max-width: 425px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.18);
+	overflow: hidden;
+}
+.item__picture{
+	background-image: url('../img/item__picture.png') !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	max-width: 425px;
+}
+.item__content-top{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.item__date{
+	position: absolute;
+	bottom: 16.8px;
+	right: 18px;
+}
+
+// **************		Галерея		*****************
+.picture{
+	display: block;
+	background-image: url('../img/picture.png') !important;
+	background-color: #000 !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	// max-width: 425px;
+}
+
+// **************		Отзывы		***************
+
+.slider{
+	
+}
+
+.review{
+
+}
+// ******Слайдер
+.slick-dots li button:before{
+	content: '';
+}
+.slick-dots li button{
+	border-radius: 50%;
+	background: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	height: 15px;
+	width: 15px;
+}
+.slick-dots li.slick-active button:before{
+	border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	background-color: #C4C4C4;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+}
+
+
+
+// **************		Форма		**************
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 426px;
+	text-align: center;
+}
+.input{
+	padding-top: 9px;
+	padding-left: 11px;
+	padding-bottom: 11px;
+	margin: 10px auto;
+	display: block;
+	width: 426px;
+	border: 1px solid #BDBDBD;
+	box-sizing: border-box;
+	border-radius: 5px;
+	
+}
+.input--textarea{
+	height: 150px;
+}
+
+
+
+
+// **********		Футер		*****************
+
+
+.footer{
+	position: relative;
+	height: 163px;
+	max-width: 1920px;
+	margin-top: 149px;
+	padding: 1% 15%;
+	position: relative;
+}
+.footer::before{
+	content: ' ';
+	height: 1px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color:#E0E0E0;
+}
+.footer__content{
+	height: 163px;
+	position: relative;
+}
+.footer__top{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer__sitemap{
+	display: inline-block;
+}
+.footer__link{
+	margin: 15px;
+	color: #000000;
+	transition: all 0.5s;
+}
+.footer__link:first-child{
+	margin-left: 0;
+	
+}
+.socials{
+	float: right;
+}
+.socials__item{
+	float: left;
+	margin: 5px;
+	display: block;
+	background-color: #E73741;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.socials__item:hover{
+	background-color: #EA555D;
+}
+.socials__item--fb{
+	background-image: url('../img/Shape.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 18px;
+	background-origin: content-box;
+	background-position: center;
+	
+}
+.socials__item--tw{
+	background-image: url('../img/Shape_1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 16px;
+	background-origin: content-box;
+	background-position: center;
+}
+
+.footer__copyright{
+	position: absolute;
+	bottom: 0;
+	color: #828282;
+}
+body {
+  
+}
